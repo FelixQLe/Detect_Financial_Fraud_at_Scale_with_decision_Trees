@@ -7,6 +7,3 @@ Training a machine learning model to detect fraudulent behavior involves teachin
 Training a supervised machine learning model to detect financial fraud can be challenging due to the low number of confirmed examples of fraudulent behavior. This is because financial fraud is a rare occurrence and is often difficult to detect. The limited number of examples makes it challenging for the machine learning model to learn the relationship between the input data and the output label (fraud or not fraud). If the training data is imbalanced, meaning that there are very few examples of fraud compared to the number of non-fraud examples, the model may have a tendency to classify everything as non-fraud, leading to poor performance in detecting fraud.
 
 To overcome this challenge, various techniques can be used to balance the training data, such as oversampling the rare class (fraud) or using synthetic data generation methods. Additionally, various feature engineering techniques can be used to create new and more informative features from the existing data to improve the performance of the model.
-
-
-Copyright: This is from Big Book of Machine Learning Use Cases - 2nd Edition. I follow the instruction in this book with some of my modification, because I can not access to databrick. I use the PySpark instead to load data using Spark SQL
