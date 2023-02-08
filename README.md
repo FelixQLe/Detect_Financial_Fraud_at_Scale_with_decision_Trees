@@ -1,4 +1,14 @@
 ## Detecting Financial Fraud at Scale With Decision Trees
+### - Intructions on this Repo
+
+1. Heap size error
+- run this command line before run jupyter notebook on command line:
+
+export PYSPARK_SUBMIT_ARGS=' --driver-memory 30g --driver-cores 6 --executor-memory 30g --executor-cores 6 pyspark-shell'
+
+2. ERROR PythonRunner: Python worker exited unexpectedly (crashed) java.net.SocketException: Connection reset
+
+- Try to run several times
 
 ### TECH STACK: MLflow, Pyspark, Jupyter, SQL
 
