@@ -4,7 +4,7 @@
 1. Heap size error
 - run this command line before run jupyter notebook on command line:
 
-export PYSPARK_SUBMIT_ARGS=' --driver-memory 30g --driver-cores 6 --executor-memory 30g --executor-cores 6 pyspark-shell'
+export PYSPARK_SUBMIT_ARGS=' --conf spark.sql.shuffle.partitions=700 --conf spark.default.parallelism=700 --driver-memory 30g --driver-cores 6 --executor-memory 30g --executor-cores 6 pyspark-shell'
 
 2. ERROR PythonRunner: Python worker exited unexpectedly (crashed) java.net.SocketException: Connection reset
 
