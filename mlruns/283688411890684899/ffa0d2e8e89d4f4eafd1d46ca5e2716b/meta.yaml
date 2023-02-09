@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/hople/Desktop/Bootcamp_practices/Detect_Financial_Fraud_at_Scale_with_decision_Trees/mlruns/283688411890684899/ffa0d2e8e89d4f4eafd1d46ca5e2716b/artifacts
+end_time: 1675923872117
+entry_point_name: ''
+experiment_id: '283688411890684899'
+lifecycle_stage: active
+run_id: ffa0d2e8e89d4f4eafd1d46ca5e2716b
+run_name: blushing-fly-512
+run_uuid: ffa0d2e8e89d4f4eafd1d46ca5e2716b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1675923853322
+status: 3
+tags: []
+user_id: hople
