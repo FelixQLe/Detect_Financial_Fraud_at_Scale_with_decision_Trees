@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/hople/Desktop/Bootcamp_practices/Detect_Financial_Fraud_at_Scale_with_decision_Trees/mlruns/283688411890684899/2ddf4be2a24b485a93c54a9ef6e70948/artifacts
+end_time: 1675971902561
+entry_point_name: ''
+experiment_id: '283688411890684899'
+lifecycle_stage: active
+run_id: 2ddf4be2a24b485a93c54a9ef6e70948
+run_name: rambunctious-jay-621
+run_uuid: 2ddf4be2a24b485a93c54a9ef6e70948
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1675971870241
+status: 3
+tags: []
+user_id: hople

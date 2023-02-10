@@ -1,0 +1,17 @@
+artifact_path: model
+flavors:
+  python_function:
+    data: sparkml
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.spark
+    python_version: 3.9.13
+  spark:
+    code: null
+    model_data: sparkml
+    pyspark_version: 3.3.0
+mlflow_version: 2.1.1
+model_uuid: 89ee9c74b31c42d3a17482d85423fe90
+run_id: ca39abbcfec049089374b0f4c2040e7e
+utc_time_created: '2023-02-10 03:48:07.309961'
