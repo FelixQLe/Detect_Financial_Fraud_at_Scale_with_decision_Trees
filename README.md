@@ -6,6 +6,19 @@
 
 export PYSPARK_SUBMIT_ARGS=' --conf spark.sql.shuffle.partitions=700 --conf spark.default.parallelism=700 --driver-memory 30g --driver-cores 6 --executor-memory 30g --executor-cores 6 pyspark-shell'
 
+OR use the following configuration when create SparkContext
+
+#Create a spark Context class, with custom config
+- conf = SparkConf()
+- conf.set('spark.sql.debug.maxToStringFields', 100)
+- conf.set('spark.default.parallelism', 700)
+- conf.set('spark.sql.shuffle.partitions', 700)
+- conf.set("spark.driver.memory", '30g')
+- conf.set('spark.driver.cores', 8)
+- conf.set('spark.executor.cores', 8)
+- conf.set("spark.executor.memory", '30g')
+- sc = SparkContext.getOrCreate(conf)
+
 2. ERROR PythonRunner: Python worker exited unexpectedly (crashed) java.net.SocketException: Connection reset
 
 - Try to run several times
