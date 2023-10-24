@@ -34,4 +34,4 @@ To overcome this challenge, various techniques can be used to balance the traini
 ![Fraud_not_Fraud_each_type_transactions](https://user-images.githubusercontent.com/93171100/217422354-6c7bd4ab-bf6f-48b1-b534-4f745b0fe9e5.png)
 
 
-Copyright: This is from Big Book of Machine Learning Use Cases - 2nd Edition. I follow the instruction in this book with my modification, because I can not access to databrick. I use the PySpark instead to load data using Spark SQL
+Copyright: This is from Big Book of Machine Learning Use Cases - 2nd Edition. I follow the instruction in this book with my modification
